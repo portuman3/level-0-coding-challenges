@@ -1,7 +1,7 @@
 function matchingVowels(word){
-    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
     word = word.toLowerCase();
-    let vowelsMatched = [];
+    const vowelsMatched = [];
     for (let i = 0; i < word.length; i++){
         for (let j = 0; j < vowels.length; j++){
             if (word[i] === vowels[j]){
